@@ -67,11 +67,11 @@ const stats = [
 ];
 
 const chartConfig = {
-  value: { label: "Value", color: "oklch(0.55 0.2 250)" },
+  value: { label: "Value", color: "var(--chart-1)" },
 } satisfies ChartConfig;
 
 const chartConfigNegative = {
-  value: { label: "Value", color: "oklch(0.55 0.22 27)" },
+  value: { label: "Value", color: "hsl(0 72% 51%)" },
 } satisfies ChartConfig;
 
 export default function Stats02() {
