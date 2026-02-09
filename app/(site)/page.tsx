@@ -57,7 +57,7 @@ export default function Home() {
               const count = blocks.filter((b) => b.category === category.id).length;
               return (
                 <Link key={category.id} href={`/${category.id}`}>
-                  <Card className="transition-all duration-150 ease-out hover:-translate-y-0.5 hover:bg-muted/50 hover:shadow-md motion-reduce:transition-none motion-reduce:hover:translate-y-0">
+                  <Card className="shadow-none transition-colors duration-150 ease-out hover:bg-muted/50 motion-reduce:transition-none">
                     <CardHeader>
                       <div className="flex items-center justify-between">
                         <CardTitle className="text-lg">{category.label}</CardTitle>
