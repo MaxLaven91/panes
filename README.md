@@ -1,19 +1,19 @@
-# Panes
+# Components
 
 Clean, modern UI components for React. Open-source copy-paste components built with [shadcn/ui](https://ui.shadcn.com) and Tailwind CSS.
 
-Browse and preview at [panes.so](https://panes.so).
+Browse and preview at [components.so](https://components.so).
 
 ## Quick Start
 
 ### 1. Add the registry
 
-Add the Panes registry to your `components.json`:
+Add the Components registry to your `components.json`:
 
 ```json
 {
   "registries": {
-    "@panes": "https://panes.so/r/{name}.json"
+    "@components": "https://components.so/r/{name}.json"
   }
 }
 ```
@@ -21,7 +21,7 @@ Add the Panes registry to your `components.json`:
 ### 2. Install a component
 
 ```bash
-npx shadcn@latest add @panes/stats-01
+npx shadcn@latest add @components/stats-01
 ```
 
 The component installs to `components/panes/<category>/<block>.tsx` in your project.

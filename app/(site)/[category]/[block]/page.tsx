@@ -69,7 +69,7 @@ export default async function BlockPage({ params }: { params: Params }) {
 
       {/* Install command */}
       <div className="mt-8">
-        <CliCommand command={`npx shadcn@latest add @panes/${block.id}`} />
+        <CliCommand command={`npx shadcn@latest add @components/${block.id}`} />
       </div>
 
       {/* Preview + Code */}

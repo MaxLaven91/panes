@@ -263,8 +263,8 @@ function main() {
   // Write combined registry.json
   const registry = {
     $schema: "https://ui.shadcn.com/schema/registry.json",
-    name: "panes",
-    homepage: "https://panes.so",
+    name: "components",
+    homepage: "https://components.so",
     items: registryItems,
   };
 

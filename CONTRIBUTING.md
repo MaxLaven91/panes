@@ -1,12 +1,12 @@
-# Contributing to Panes
+# Contributing to Components
 
 Thanks for your interest in contributing. This guide covers everything you need to add a new block or improve an existing one.
 
 ## Setup
 
 ```bash
-git clone https://github.com/MaxLaven91/panes.git
-cd panes
+git clone https://github.com/MaxLaven91/components.git
+cd components
 npm install
 npm run dev
 ```

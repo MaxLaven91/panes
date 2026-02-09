@@ -22,7 +22,7 @@ export default function Home() {
             <a href="#categories">Browse components</a>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <a href="https://github.com/MaxLaven91/panes" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/MaxLaven91/components" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </Button>
@@ -33,7 +33,7 @@ export default function Home() {
       <section className="mx-auto mt-24 max-w-xl">
         <h2 className="text-center text-sm font-medium text-muted-foreground">Get started</h2>
         <div className="mt-4 space-y-3">
-          <CliCommand command="npx shadcn@latest add @panes/stats-01" />
+          <CliCommand command="npx shadcn@latest add @components/stats-01" />
         </div>
         <p className="mt-3 text-center text-sm text-muted-foreground">
           Add the registry to your{" "}
@@ -86,7 +86,7 @@ export default function Home() {
           </a>
           . Open source on{" "}
           <a
-            href="https://github.com/MaxLaven91/panes"
+            href="https://github.com/MaxLaven91/components"
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-4"

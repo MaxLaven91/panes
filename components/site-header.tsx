@@ -7,10 +7,10 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
         <Link href="/" className="text-lg font-semibold tracking-tight">
-          Panes
+          Components
         </Link>
         <Button variant="outline" size="sm" asChild>
-          <a href="https://github.com/MaxLaven91/panes" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/MaxLaven91/components" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </Button>

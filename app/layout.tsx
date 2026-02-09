@@ -15,23 +15,27 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Panes — Clean, modern UI components",
-    template: "%s — Panes",
+    default: "Components — Clean, modern UI components",
+    template: "%s — Components",
   },
   description:
     "Open-source copy-paste UI components for React. Browse, preview, and install with the shadcn CLI.",
-  metadataBase: new URL("https://panes.so"),
+  metadataBase: new URL("https://components.so"),
   openGraph: {
-    title: "Panes — Clean, modern UI components",
+    title: "Components — Clean, modern UI components",
     description:
       "Open-source copy-paste UI components for React. Browse, preview, and install with the shadcn CLI.",
-    url: "https://panes.so",
-    siteName: "Panes",
+    url: "https://components.so",
+    siteName: "Components",
     locale: "en_US",
     type: "website",
+    images: [
+      { url: "/og.png", width: 1200, height: 630, alt: "Components — Clean, modern UI components" },
+    ],
   },
   twitter: {
-    title: "Panes — Clean, modern UI components",
+    card: "summary_large_image",
+    title: "Components — Clean, modern UI components",
     description:
       "Open-source copy-paste UI components for React. Browse, preview, and install with the shadcn CLI.",
   },

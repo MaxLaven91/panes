@@ -19,6 +19,6 @@
     "hooks": "@/hooks"
   },
   "registries": {
-    "@panes": "https://panes.so/r/{name}.json"
+    "@components": "https://components.so/r/{name}.json"
   }
 }
