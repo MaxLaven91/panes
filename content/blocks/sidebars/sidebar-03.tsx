@@ -37,20 +37,20 @@ export default function Sidebar03() {
           collapsed ? "w-16" : "w-64"
         }`}
       >
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2 px-2 py-1">
-            <div className="flex size-7 shrink-0 items-center justify-center rounded-md bg-primary">
-              <Home
-                className="size-4 text-primary-foreground"
-                aria-hidden="true"
-              />
-            </div>
-            {!collapsed && (
+        <div className={`flex items-center ${collapsed ? "justify-center" : "justify-between"}`}>
+          {!collapsed && (
+            <div className="flex items-center gap-2 px-2 py-1">
+              <div className="flex size-7 shrink-0 items-center justify-center rounded-md bg-primary">
+                <Home
+                  className="size-4 text-primary-foreground"
+                  aria-hidden="true"
+                />
+              </div>
               <span className="text-lg font-semibold tracking-tight">
                 Acme
               </span>
-            )}
-          </div>
+            </div>
+          )}
           <Button
             variant="ghost"
             size="icon"
