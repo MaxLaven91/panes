@@ -73,6 +73,25 @@ The component installs to `components/panes/<category>/<block>.tsx` in your proj
 | `form-02` | Settings form with avatar, toggles, and danger zone |
 | `form-03` | Inline editable form with display/edit modes |
 
+### Tables
+
+| Component | Description |
+|-----------|-------------|
+| `table-01` | Clean minimal table with formatted numbers |
+| `table-02` | Data table with status badges and row action menus |
+| `table-03` | Sortable columns with click headers and arrow indicators |
+| `table-04` | Search input and category filter dropdown to narrow rows |
+| `table-05` | Search, pagination, and bulk checkbox selection |
+
+### Sidebars
+
+| Component | Description |
+|-----------|-------------|
+| `sidebar-01` | Navigation sidebar with icons and active state |
+| `sidebar-02` | Grouped sections with headers and count badges |
+| `sidebar-03` | Collapsible toggle between full and icon-only mode |
+| `sidebar-04` | User profile avatar at top with nav and logout |
+
 ## Requirements
 
 - React 18+
